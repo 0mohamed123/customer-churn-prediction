@@ -12,7 +12,6 @@ It contains customer demographic information, account details, and whether the c
 1. **Data Preprocessing**
    - Handle missing values.
    - Encode categorical variables.
-   - Balance dataset using SMOTE (imbalanced-learn).
 
 2. **Exploratory Data Analysis (EDA)**
    - Visualize churn distribution.
@@ -32,9 +31,9 @@ It contains customer demographic information, account details, and whether the c
    - ROC-AUC Curve.
 
 ## 📈 Results
-- Logistic Regression: Accuracy ≈ XX%
-- Random Forest: Accuracy ≈ XX%
-- XGBoost (optimized): Accuracy ≈ XX%
+- Logistic Regression: Accuracy ≈ 79.91%
+- Random Forest: Accuracy ≈ 78.42%
+- XGBoost (optimized): Accuracy ≈ 80.62%
 
 The **XGBoost model** achieved the best performance with the highest ROC-AUC score.
 
